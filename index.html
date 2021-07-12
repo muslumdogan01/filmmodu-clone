@@ -49,7 +49,7 @@
             </g>
           </svg>
         </div>
-          <input type="text" class="header_leftbar_searchbar" placeholder="film, imbd, yönetmen veya oyuncu arayın..">
+ <input type="text" class="header_leftbar_searchbar" placeholder="film, imbd, yönetmen veya oyuncu arayın.."> 
         </div>
         <div class="header_account">
           <span>Giriş Yap</span>
@@ -62,7 +62,7 @@
         <div class="navBarItems">
           <ul class="navBarItems_ul">
             <li><a href="#">Arşiv</a></li>
-            <li><a href="#">Film Türleri</a></li>
+            <li><a href="#" id="showFilmList">Film Türleri</a></li>
             <li><a href="#">En Çok İzlenen Filmler</a></li>
             <li><a href="#">Seri Filmler</a></li>
             <li><a href="#">Oyuncular</a></li>
@@ -74,16 +74,35 @@
         </div>
         <div class="navbar_line"></div>
       </div>
+      <div class="navbar_menü">
+        <div class="navbar_menü_header">
+          <h2>İzlemek istediğiniz film türünü seçiniz</h2>
+          <span id="closeButton">X</span>
+        </div>
+        <div class="navbar_menü_body">
+          <ul class="navbar_menu_list" id="filmTürleri">
+        
+        </ul>
+        </div>
+      </div>
+
 
       <!-- Content Alanı -->
 
       <div class="content">
-        <div class="content_slider"></div>
-        <div class="content_items"></div>
+        <div class="content_slider">
+          <div class="content_slider_left">
+
+          </div>
+          <div class="content_slider_right">
+
+          </div>
+        </div>
+        <div class="content_rows"></div>
       </div>
 
       <!-- Footer Alanı -->
-<div> </div> 
+
 
      
     </div>
