@@ -125,9 +125,14 @@ body{
     flex-direction: column;
     display: none;
 }
+
+/* Menü SHOW / HİDE */
 .show{
     display: block;
 }
+/* Menü SHOW / HİDE */
+
+
 .navbar_menü_header{
     display: flex;
     justify-content: space-between;
@@ -176,7 +181,120 @@ body{
 
 /* Content ALANI  */
 
+.content{
+    width: 100%;
+    display: flex;
+}
+.content_slider{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.content_slider_left{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    position: relative;
+    flex-direction: column;
+}
+.content_slider_left img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.content_slider_left_body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.content_slider_left_body .imdb{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 6px 15px;
+    color:#ffc526;
+}
+.content_slider_left_body .pixel{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 6px 15px;
+    color:#fff;
+}
+.content_slider_left_footer {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.content_slider_left_footer i{
+    color: #ffc526;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 
 
+
+
+
+
+.content_slider_right{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    position: relative;
+    flex-direction: column;
+}
+.content_slider_right img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.content_slider_right_body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content_slider_right_body .imdb{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 6px 15px;
+    color:#ffc526;
+}
+.content_slider_right_body .pixel{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 6px 15px;
+    color:#ffff;
+}
+.content_slider_right_footer {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.content_slider_right_footer i{
+    color: #ffc526;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
 /* Content ALANI  SONU */
