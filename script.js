@@ -1,5 +1,3 @@
-
-
 let filmTürleri = document.querySelector("#filmTürleri");
 let showFilmList = document.querySelector("#showFilmList");
 let navbarMenu = document.querySelector(".navbar_menü");
@@ -176,7 +174,7 @@ const leftButton = (models) => {
     return (selectedIndex -= 1);
   }
 };
-
+console.log("selam");
 const rightButton = (models) => {
   if (selectedIndex < arrLengthDivideTwo) {
     return (selectedIndex += 1);
