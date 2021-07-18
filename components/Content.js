@@ -1,4 +1,4 @@
-const Content = () => {
+export const Content = () => {
   return `<div class="content">
     <div class="content_slider">
       <div class="content_slider_left">
@@ -36,5 +36,3 @@ const Content = () => {
     </div>
   </div>`;
 };
-
-export default Content;
